@@ -1,0 +1,15 @@
+{
+  "format": 1,
+  "id": "local.host-ops-test",
+  "name": "自訂星球與任務組",
+  "version": "0.3.0-test21",
+  "description": "F11 房主選單。選擇入口星球、地形、任務組與星球詞條。適用遊戲構建 25480438。",
+  "gameplay": true,
+  "coop": "per-player",
+  "code": {
+    "dll": "host_ops_test.dll",
+    "sdk": 16,
+    "prebuilt": true,
+    "game": "25480438"
+  }
+}

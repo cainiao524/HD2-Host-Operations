@@ -1,0 +1,3488 @@
+{
+  "schema": 1,
+  "game_build": "25480438",
+  "coverage": {
+    "variant_count": 18,
+    "variant_factions": {
+      "0": 1,
+      "2": 7,
+      "3": 6,
+      "4": 4
+    },
+    "base_planet_effect_count": 315,
+    "community_only_count": 2,
+    "planet_effect_count": 317,
+    "live_permanent_unique_effect_count": 0,
+    "live_active_unique_effect_count": 67
+  },
+  "sources": {
+    "campaignlab_archive_sha256": "78b99c0b37bd2cadc2c34c7962e8e62c91815b6436779d3e79c9660de0fcdcb8",
+    "variant_catalog": {
+      "build": "25988413",
+      "game_version": "1.007.200",
+      "catalog_revision": "CampaignLab-v0.6-campaign-attack-link-and-strain-map"
+    },
+    "planet_effect_catalog": {
+      "source": "hd2-network-proxy GWE-EFFECTS-FULL-26088801 (312 rows), retrieved 2026-11-02; display candidates only",
+      "catalog_revision": "5f5a4a036b5bb035ed0d0fafd99a19a950c84e18"
+    },
+    "live_war": {
+      "war_id": 801,
+      "layout_version": 727,
+      "fetched_utc": "2026-11-23T12:13:11Z",
+      "sha256": "66f5d31ee43b24813813ddc41ddb7ef3b5213b10fd1f7c45aa637e8d7120db52"
+    }
+  },
+  "uncertainty": {
+    "community_only_ids": [
+      1184,
+      1185
+    ],
+    "unresolved_ids": [
+      1,
+      13,
+      1126,
+      1131,
+      1132,
+      1136,
+      1141,
+      1176,
+      1201,
+      1218,
+      1225,
+      1270,
+      1271,
+      1336,
+      1341,
+      1368,
+      1381,
+      1382,
+      1404,
+      1405,
+      1415,
+      1429
+    ],
+    "unreleased_ids": [
+      1426,
+      1427,
+      1428
+    ],
+    "candidate_ids": [
+      1432,
+      1433,
+      1434
+    ],
+    "translation_pending_ids": [
+      121,
+      1225,
+      1240,
+      1242,
+      1304,
+      1336,
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1368,
+      1394,
+      1404,
+      1405,
+      1406,
+      1410,
+      1411,
+      1415,
+      1416,
+      1420,
+      1421,
+      1422,
+      1423,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1429,
+      1430,
+      1431
+    ]
+  },
+  "variants": [
+    {
+      "ids": [
+        1243,
+        1245
+      ],
+      "faction": 2,
+      "name": "掠食变种",
+      "aliases": [
+        "掠食",
+        "bugs_super_predator",
+        "Unresolved effect #1243",
+        "掠食者变种（敌人）",
+        "PREDATOR STRAIN (Enemies)",
+        "PREDATOR STRAIN",
+        "presence:bugs_super_predator",
+        "掠食者变种"
+      ]
+    },
+    {
+      "ids": [
+        1244,
+        1386
+      ],
+      "faction": 2,
+      "name": "孢裂变种",
+      "aliases": [
+        "阴霾",
+        "bugs_gloom",
+        "Unresolved effect #1244",
+        "孢子爆裂变种（敌人）",
+        "Spore Burst Strain (Enemies)",
+        "SPORE BURST STRAIN",
+        "presence:bugs_gloom",
+        "孢子爆裂变种"
+      ]
+    },
+    {
+      "ids": [
+        1303,
+        1310
+      ],
+      "faction": 2,
+      "name": "爆裂变种",
+      "aliases": [
+        "掘地",
+        "bugs_burrower",
+        "Unresolved effect #1303",
+        "破地变种（敌人）",
+        "RUPTURE STRAIN (ENEMIES)",
+        "RUPTURE STRAIN",
+        "presence:bugs_burrower",
+        "破地变种"
+      ]
+    },
+    {
+      "ids": [
+        1306,
+        1309
+      ],
+      "faction": 2,
+      "name": "蟑龙",
+      "aliases": [
+        "bugs_dragon",
+        "Unresolved effect #1306",
+        "龙蟑（敌人）",
+        "DRAGONROACHES (Enemies)",
+        "DRAGONROACHES",
+        "presence:bugs_dragon",
+        "龙蟑"
+      ]
+    },
+    {
+      "ids": [
+        1307,
+        1308
+      ],
+      "faction": 2,
+      "name": "霸王虫",
+      "aliases": [
+        "bugs_hive_lord",
+        "Unresolved effect #1307",
+        "虫巢领主（敌人）",
+        "HIVE LORDS (Enemies)",
+        "HIVE LORDS",
+        "presence:bugs_hive_lord",
+        "虫巢领主"
+      ]
+    },
+    {
+      "ids": [
+        1430,
+        1431
+      ],
+      "faction": 2,
+      "name": "腐蚀变种",
+      "aliases": [
+        "腐蚀",
+        "Corrosive",
+        "Corrosive Strain",
+        "corrosive_strain_observed",
+        "Unresolved effect #1430",
+        "腐蚀性变种（敌人）",
+        "CAUSTIC STRAIN (Enemies)",
+        "CAUSTIC STRAIN (experimental)",
+        "bugs_acid",
+        "CAUSTIC STRAIN",
+        "presence:bugs_acid",
+        "腐蚀性变种"
+      ]
+    },
+    {
+      "ids": [
+        1432,
+        1433,
+        1434
+      ],
+      "faction": 2,
+      "name": "毒瘴变种",
+      "aliases": [
+        "毒瘴",
+        "Noxious",
+        "Noxious Strain",
+        "noxious_strain",
+        "New enemy presence #1432",
+        "Noxious Strain (candidate enemy presence)",
+        "Noxious Strain (candidate map tag)"
+      ]
+    },
+    {
+      "ids": [
+        1360,
+        1361
+      ],
+      "faction": 3,
+      "name": "生化人",
+      "aliases": [
+        "bots_cyborgs",
+        "Unresolved effect #1360",
+        "生化人（敌人）",
+        "CYBORGS (Enemies)",
+        "CYBORGS",
+        "presence:bots_cyborgs"
+      ]
+    },
+    {
+      "ids": [
+        1248,
+        1249
+      ],
+      "faction": 3,
+      "name": "灼热部队",
+      "aliases": [
+        "象牙军团",
+        "bots_ivory_legion",
+        "Unresolved effect #1248",
+        "焚烧军团（敌人）",
+        "THE INCINERATION CORPS (Enemies)",
+        "THE INCINERATION CORPS",
+        "presence:bots_ivory_legion",
+        "焚烧军团"
+      ]
+    },
+    {
+      "ids": [
+        1202,
+        1203
+      ],
+      "faction": 3,
+      "name": "喷气部队",
+      "aliases": [
+        "喷气旅",
+        "elite_bot_jumpattack",
+        "Unresolved effect #1202",
+        "喷射旅（敌人）",
+        "THE JET BRIGADE (Enemies)",
+        "THE JET BRIGADE",
+        "presence:elite_bot_jumpattack",
+        "喷射旅"
+      ]
+    },
+    {
+      "ids": [
+        1413,
+        1414
+      ],
+      "faction": 4,
+      "name": "入侵舰队",
+      "aliases": [
+        "illuminate_invading",
+        "Unresolved effect #1413",
+        "光能者入侵舰队（敌人）",
+        "INVASION FLEET (Enemies)",
+        "INVASION FLEET",
+        "presence:illuminate_invading",
+        "光能者入侵舰队"
+      ]
+    },
+    {
+      "ids": [
+        1377,
+        1378
+      ],
+      "faction": 4,
+      "name": "无票者大军",
+      "aliases": [
+        "收割者",
+        "illuminate_harvester",
+        "Unresolved effect #1377",
+        "无智者大军（敌人）",
+        "MINDLESS MASSES (Enemies)",
+        "MINDLESS MASSES",
+        "presence:illuminate_harvester",
+        "无智者大军"
+      ]
+    },
+    {
+      "ids": [
+        1380,
+        1379
+      ],
+      "faction": 4,
+      "name": "入侵者",
+      "aliases": [
+        "工程师",
+        "illuminate_engineer",
+        "Unresolved effect #1380",
+        "征用者（敌人）",
+        "APPROPRIATORS (Enemies)",
+        "APPROPRIATORS",
+        "presence:illuminate_engineer",
+        "征用者"
+      ]
+    },
+    {
+      "ids": [
+        1402,
+        1403
+      ],
+      "faction": 4,
+      "name": "窃票者",
+      "aliases": [
+        "恐怖体",
+        "illuminate_bodyhorror",
+        "Unresolved effect #1402",
+        "选票掠夺者（敌人）",
+        "VOTE SNATCHERS (Enemies)",
+        "VOTE SNATCHERS",
+        "presence:illuminate_bodyhorror",
+        "选票掠夺者"
+      ]
+    },
+    {
+      "ids": [
+        1401,
+        1400
+      ],
+      "faction": 0,
+      "name": "重兵部署",
+      "aliases": [
+        "SEAF",
+        "seaf",
+        "Unresolved effect #1401",
+        "超级地球武装部队大量驻扎（敌人）",
+        "Heavy SEAF Presence (Enemies)",
+        "Heavy SEAF Presence",
+        "presence:seaf",
+        "超级地球武装部队大量驻扎"
+      ]
+    },
+    {
+      "ids": [
+        1355
+      ],
+      "faction": 3,
+      "name": "重甲激增",
+      "aliases": [
+        "增兵-战车",
+        "bots_increased_warstriders",
+        "HEAVY ARMOR SURGE",
+        "presence:bots_increased_warstriders",
+        "重甲敌人激增"
+      ]
+    },
+    {
+      "ids": [
+        1357
+      ],
+      "faction": 3,
+      "name": "巨型者激增",
+      "aliases": [
+        "增兵-巨兽",
+        "bots_increased_hulks",
+        "HULK SURGE",
+        "presence:bots_increased_hulks",
+        "浩克激增"
+      ]
+    },
+    {
+      "ids": [
+        1359
+      ],
+      "faction": 3,
+      "name": "蹂躏者激增",
+      "aliases": [
+        "增兵-毁灭者",
+        "bots_increased_devastators",
+        "DEVASTATOR SURGE",
+        "presence:bots_increased_devastators",
+        "毁灭者激增"
+      ]
+    }
+  ],
+  "planet_effects": [
+    [
+      1,
+      "未解效果 #1",
+      "未解效果",
+      [
+        "Unresolved effect #1"
+      ]
+    ],
+    [
+      5,
+      "敌军兵力增加",
+      "作战增减益",
+      [
+        "ENEMY FORCE INCREASE"
+      ]
+    ],
+    [
+      8,
+      "敌军兵力减少",
+      "未解效果",
+      [
+        "Unresolved effect #8"
+      ]
+    ],
+    [
+      12,
+      "额外奖励",
+      "未解效果",
+      [
+        "ADDITIONAL PAYOUT"
+      ]
+    ],
+    [
+      13,
+      "未解效果 #13",
+      "未解效果",
+      [
+        "Unresolved effect #13"
+      ]
+    ],
+    [
+      55,
+      "增加 开场弹药量",
+      "弹药与补给",
+      [
+        "INCREASED STARTING AMMO"
+      ]
+    ],
+    [
+      67,
+      "实验性超级士兵",
+      "作战增减益",
+      [
+        "EXPERIMENTAL SUPER SOLDIERS"
+      ]
+    ],
+    [
+      70,
+      "情报扫描器",
+      "情报与侦察",
+      [
+        "INTEL SCANNERS",
+        "无参"
+      ]
+    ],
+    [
+      71,
+      "情报包受损",
+      "情报与侦察",
+      [
+        "COMPROMISED INTEL PACKAGES",
+        "无参"
+      ]
+    ],
+    [
+      76,
+      "坚不可摧的防御",
+      "作战增减益",
+      [
+        "IMPENETRABLE DEFENSE",
+        "无参"
+      ]
+    ],
+    [
+      77,
+      "补给受损",
+      "作战增减益",
+      [
+        "CRIPPLED SUPPLY",
+        "无参"
+      ]
+    ],
+    [
+      80,
+      "小幅攻击增加",
+      "作战增减益",
+      [
+        "MINOR ATTACK INCREASE"
+      ]
+    ],
+    [
+      87,
+      "增加 弹药拾取(+1 弹匣 & +10 发子弹)",
+      "弹药与补给",
+      [
+        "MORE BATTLEFIELD AMMO"
+      ]
+    ],
+    [
+      95,
+      "飞行延误(+1秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #95"
+      ]
+    ],
+    [
+      102,
+      "大幅攻击增加",
+      "作战增减益",
+      [
+        "LARGE ATTACK INCREASE"
+      ]
+    ],
+    [
+      103,
+      "攻击增加",
+      "作战增减益",
+      [
+        "ATTACK INCREASE"
+      ]
+    ],
+    [
+      104,
+      "显著攻击增加",
+      "作战增减益",
+      [
+        "SUBSTANTIAL ATTACK INCREASE"
+      ]
+    ],
+    [
+      105,
+      "重大攻击增加",
+      "作战增减益",
+      [
+        "MAJOR ATTACK INCREASE"
+      ]
+    ],
+    [
+      106,
+      "大规模攻击增加",
+      "作战增减益",
+      [
+        "MASSIVE ATTACK INCREASE"
+      ]
+    ],
+    [
+      113,
+      "丰富的治疗针",
+      "弹药与补给",
+      [
+        "PLENTYFUL STIMS"
+      ]
+    ],
+    [
+      114,
+      "减少 弹药拾取(-1 弹匣 & -10 发子弹)",
+      "弹药与补给",
+      [
+        "LESS BATTLEFIELD AMMO"
+      ]
+    ],
+    [
+      121,
+      "市场崩盘",
+      "未解效果",
+      [
+        "MARKET CRASH"
+      ]
+    ],
+    [
+      1126,
+      "未解效果 #1126",
+      "未解效果",
+      [
+        "Unresolved effect #1126"
+      ]
+    ],
+    [
+      1127,
+      "临时配发：飞鹰500千克炸弹",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 500KG BOMB",
+        "Temporary stratagem: Unresolved effect #1127 #1127",
+        "stratagem:飞鹰500千克炸弹"
+      ]
+    ],
+    [
+      1128,
+      "临时配发：飞鹰500千克炸弹",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 500KG BOMB",
+        "Temporary stratagem: Unresolved effect #1128 #1128",
+        "stratagem:飞鹰500千克炸弹"
+      ]
+    ],
+    [
+      1129,
+      "临时配发：轨道激光炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: SH-32 SHIELD GENERATOR PACK",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1129",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道激光炮"
+      ]
+    ],
+    [
+      1130,
+      "临时配发：MG-206 重机枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: A/ARC-3 TESLA TOWER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1130",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MG-206 重机枪"
+      ]
+    ],
+    [
+      1131,
+      "未解效果 #1131",
+      "未解效果",
+      [
+        "Unresolved effect #1131"
+      ]
+    ],
+    [
+      1132,
+      "未解效果 #1132",
+      "未解效果",
+      [
+        "Unresolved effect #1132"
+      ]
+    ],
+    [
+      1133,
+      "临时配发：A/M-23 电磁迫击炮哨戒炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: A/M-12 MORTAR SENTRY",
+        "Temporary stratagem: Unresolved effect #1133 #1133",
+        "stratagem:A/M-23 电磁迫击炮哨戒炮"
+      ]
+    ],
+    [
+      1134,
+      "弹药紧缺(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1134"
+      ]
+    ],
+    [
+      1135,
+      "轨道炮攻击冷却时间减少(-90%)",
+      "临时装备",
+      [
+        "Temporary equipment #1135",
+        "DSS 临时装备:RS-422 轨道炮"
+      ]
+    ],
+    [
+      1136,
+      "未解效果 #1136",
+      "作战增减益",
+      [
+        "Unresolved effect #1136"
+      ]
+    ],
+    [
+      1137,
+      "临时配发：RS-422 轨道炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: RS-422 RAILGUN",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1137",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:RS-422 轨道炮"
+      ]
+    ],
+    [
+      1138,
+      "结算奖励倍率(未知)",
+      "未解效果",
+      [
+        "Unresolved effect #1138"
+      ]
+    ],
+    [
+      1139,
+      "临时配发：飞鹰凝固汽油弹空袭",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE NAPALM AIRSTRIKE",
+        "Temporary stratagem: Unresolved effect #1139 #1139",
+        "stratagem:飞鹰凝固汽油弹空袭"
+      ]
+    ],
+    [
+      1140,
+      "弹药紧缺(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1140"
+      ]
+    ],
+    [
+      1141,
+      "未解效果 #1141",
+      "作战增减益",
+      [
+        "Unresolved effect #1141"
+      ]
+    ],
+    [
+      1142,
+      "临时配发：飞鹰500千克炸弹",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 500KG BOMB",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1142",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰500千克炸弹"
+      ]
+    ],
+    [
+      1143,
+      "临时配发：MG-43 机枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MG-43 MACHINE GUN",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1143",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MG-43 机枪"
+      ]
+    ],
+    [
+      1144,
+      "弹药紧缺(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "AMMO SHORTAGE"
+      ]
+    ],
+    [
+      1145,
+      "临时配发：轨道激光炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL LASER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1145",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道激光炮"
+      ]
+    ],
+    [
+      1147,
+      "临时配发：轨道电磁冲击波攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL EMS STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1147",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道电磁冲击波攻击"
+      ]
+    ],
+    [
+      1148,
+      "临时配发：EXO-45 爱国者外骨骼装甲",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EXO-45 PATRIOT EXOSUIT",
+        "Temporary stratagem: Unresolved effect #1148 #1148",
+        "stratagem:EXO-45 爱国者外骨骼装甲"
+      ]
+    ],
+    [
+      1149,
+      "临时配发：LIFT-850 喷气背包",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: LIFT-850 JUMP PACK",
+        "Temporary stratagem: EQUIPMENT TESTING #1149",
+        "EQUIPMENT TESTING",
+        "stratagem:LIFT-850 喷气背包"
+      ]
+    ],
+    [
+      1150,
+      "临时配发：B-1 补给背包",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: B-1 SUPPLY PACK",
+        "Temporary stratagem: EQUIPMENT TESTING #1150",
+        "EQUIPMENT TESTING",
+        "stratagem:B-1 补给背包",
+        "补给包",
+        "B-1 补给背包",
+        "补给背包"
+      ]
+    ],
+    [
+      1152,
+      "临时配发：APW-1 反器材步枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: APW-1 ANTI-MATERIEL RIFLE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1152",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:APW-1 反器材步枪"
+      ]
+    ],
+    [
+      1153,
+      "临时配发：RS-422 轨道炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: RS-422 RAILGUN",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1153",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:RS-422 轨道炮"
+      ]
+    ],
+    [
+      1154,
+      "临时配发：轨道炮攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL RAILCANNON STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1154",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道炮攻击"
+      ]
+    ],
+    [
+      1155,
+      "临时配发：AC-8 机炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: AC-8 AUTOCANNON",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1155",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:AC-8 机炮"
+      ]
+    ],
+    [
+      1156,
+      "临时配发：飞鹰110毫米火箭巢",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 110MM ROCKET PODS",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1156",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰110毫米火箭巢"
+      ]
+    ],
+    [
+      1159,
+      "核算修正(+50% 经验值与申购单)",
+      "未解效果",
+      [
+        "ACCOUNTING CORRECTIONS"
+      ]
+    ],
+    [
+      1160,
+      "临时配发：轨道电磁冲击波攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL EMS STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1160",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道电磁冲击波攻击"
+      ]
+    ],
+    [
+      1161,
+      "临时配发：飞鹰凝固汽油弹空袭",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE NAPALM AIRSTRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1161",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰凝固汽油弹空袭"
+      ]
+    ],
+    [
+      1162,
+      "临时配发：EXO-45 爱国者外骨骼装甲",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EXO-45 PATRIOT EXOSUIT",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1162",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:EXO-45 爱国者外骨骼装甲"
+      ]
+    ],
+    [
+      1163,
+      "临时配发：飞鹰110毫米火箭巢",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 110MM ROCKET PODS",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1163",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰110毫米火箭巢"
+      ]
+    ],
+    [
+      1165,
+      "临时配发：LIFT-850 喷气背包",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: LIFT-850 JUMP PACK",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1165",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:LIFT-850 喷气背包"
+      ]
+    ],
+    [
+      1166,
+      "临时配发：飞鹰500千克炸弹",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE 500KG BOMB",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1166",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰500千克炸弹"
+      ]
+    ],
+    [
+      1167,
+      "临时配发：FLAM-40 火焰喷射器",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: FLAM-40 FLAMETHROWER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1167",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:FLAM-40 火焰喷射器",
+        "火焰喷射器",
+        "喷火器",
+        "FLAM-40"
+      ]
+    ],
+    [
+      1168,
+      "临时配发：LAS-99 类星体加农炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: LAS-98 LASER CANNON",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1168",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:LAS-99 类星体加农炮"
+      ]
+    ],
+    [
+      1169,
+      "临时配发：EAT-17 消耗性反坦克武器",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAT-17 EXPENDABLE ANTI-TANK",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1169",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:EAT-17 消耗性反坦克武器"
+      ]
+    ],
+    [
+      1170,
+      "临时配发：RL-77 空爆火箭筒",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: RL-77 AIRBURST ROCKET LAUNCHER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1170",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:RL-77 空爆火箭筒"
+      ]
+    ],
+    [
+      1171,
+      "临时配发：MD-17 反坦克地雷",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-17 ANTI-TANK MINES",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1171",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-17 反坦克地雷"
+      ]
+    ],
+    [
+      1172,
+      "临时配发：轨道毒气攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL GAS STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1172",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道毒气攻击",
+        "毒气打击",
+        "轨道毒气",
+        "毒气空袭"
+      ]
+    ],
+    [
+      1173,
+      "临时配发：EXO-49 解放者外骨骼装甲",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EXO-49 EMANCIPATOR EXOSUIT",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1173",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:EXO-49 解放者外骨骼装甲"
+      ]
+    ],
+    [
+      1174,
+      "临时配发：A/M-23 电磁迫击炮哨戒炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: A/M-12 MORTAR SENTRY",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1174",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:A/M-23 电磁迫击炮哨戒炮"
+      ]
+    ],
+    [
+      1175,
+      "滚木战略配备",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: A/G-16 GATLING SENTRY",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1175",
+        "WEAPONS EXPERIMENTATION",
+        "战备 hash 0x3A460EA5；本地明文表无此键（未发布/无本地行）"
+      ]
+    ],
+    [
+      1176,
+      "未解效果 #1176",
+      "未解效果",
+      [
+        "Unresolved effect #1176"
+      ]
+    ],
+    [
+      1177,
+      "黑洞",
+      "未解效果",
+      [
+        "未解效果 #1177",
+        "Black Hole",
+        "Unresolved effect #1177"
+      ]
+    ],
+    [
+      1178,
+      "临时配发：FX-12 防护罩生成中继器",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1178",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:FX-12 防护罩生成中继器"
+      ]
+    ],
+    [
+      1179,
+      "临时配发：AC-8 机炮",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: AC-8 AUTOCANNON",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1179",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:AC-8 机炮"
+      ]
+    ],
+    [
+      1181,
+      "临时配发：MLS-4X 突击兵",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MLS-4X COMMANDO",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1181",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MLS-4X 突击兵"
+      ]
+    ],
+    [
+      1182,
+      "制空权(-90秒 撤离时间)",
+      "作战增减益",
+      [
+        "AERIAL DOMINANCE"
+      ]
+    ],
+    [
+      1184,
+      "MD-I4 燃烧地雷",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-I4 INCENDIARY MINES",
+        "MD-14 燃烧地雷",
+        "MD-I4 INCENDIARY MINES"
+      ]
+    ],
+    [
+      1185,
+      "MD-6 反步兵雷区",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-6 ANTI-PERSONNEL MINEFIELD",
+        "MD-6 反步兵雷区",
+        "MD-6 ANTI-PERSONNEL MINEFIELD"
+      ]
+    ],
+    [
+      1186,
+      "轻度阴霾",
+      "未解效果",
+      [
+        "Light Gloom",
+        "Unresolved effect #1186"
+      ]
+    ],
+    [
+      1187,
+      "阴霾",
+      "未解效果",
+      [
+        "Gloom",
+        "Unresolved effect #1187"
+      ]
+    ],
+    [
+      1188,
+      "浓重阴霾",
+      "未解效果",
+      [
+        "浓密阴霾",
+        "Dense Gloom",
+        "Unresolved effect #1188"
+      ]
+    ],
+    [
+      1189,
+      "轻度阴霾 v2",
+      "未解效果",
+      [
+        "Unresolved effect #1189"
+      ]
+    ],
+    [
+      1190,
+      "无法抵达",
+      "未解效果",
+      [
+        "不可到达",
+        "Unreachable",
+        "Unresolved effect #1190"
+      ]
+    ],
+    [
+      1191,
+      "穿刺虫激增 (+0% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1191"
+      ]
+    ],
+    [
+      1192,
+      "穿刺虫激增 (-100% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1192"
+      ]
+    ],
+    [
+      1193,
+      "阴霾边缘",
+      "未解效果",
+      [
+        "阴霾边界",
+        "Gloom Border",
+        "Unresolved effect #1193"
+      ]
+    ],
+    [
+      1194,
+      "临时配发：轨道凝固汽油弹火力网",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL NAPALM BARRAGE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1194",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道凝固汽油弹火力网"
+      ]
+    ],
+    [
+      1195,
+      "民主空间站建造工地：一期",
+      "设施与星球标记",
+      [
+        "DSS 建设工地 - 第一阶段",
+        "DSS Construction Site- Phase 1",
+        "DSS CONSTRUCTION SITE - PHASE 1",
+        "democracy_station_phase_1",
+        "presence:democracy_station_phase_1"
+      ]
+    ],
+    [
+      1196,
+      "民主空间站后勤枢纽",
+      "设施与星球标记",
+      [
+        "DSS 后勤枢纽",
+        "DSS Logistics Hub",
+        "DSS LOGISTICS HUB",
+        "civilian_cargo",
+        "presence:civilian_cargo"
+      ]
+    ],
+    [
+      1197,
+      "异种昆虫学研究中心",
+      "设施与星球标记",
+      [
+        "外星昆虫学中心",
+        "Xenoentomology Center",
+        "XENOENTOMOLOGY CENTER",
+        "research_bio_research",
+        "presence:research_bio_research"
+      ]
+    ],
+    [
+      1198,
+      "深地幔锻造厂区",
+      "设施与星球标记",
+      [
+        "深地幔锻造综合体",
+        "Deep Mantle Forge Complex",
+        "DEEP MANTLE FORGE COMPLEX",
+        "manufacturing_forge",
+        "presence:manufacturing_forge"
+      ]
+    ],
+    [
+      1199,
+      "民主空间站建造工地：二期",
+      "设施与星球标记",
+      [
+        "DSS 建设工地 - 第二阶段",
+        "DSS Construction Site- Phase 2",
+        "DSS CONSTRUCTION SITE - PHASE 2",
+        "democracy_station_phase_2",
+        "presence:democracy_station_phase_2"
+      ]
+    ],
+    [
+      1200,
+      "临时配发：A/ARC-3 特斯拉塔",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: A/ARC-3 TESLA TOWER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1200",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:A/ARC-3 特斯拉塔"
+      ]
+    ],
+    [
+      1201,
+      "未解效果 #1201",
+      "未解效果",
+      [
+        "Unresolved effect #1201"
+      ]
+    ],
+    [
+      1202,
+      "喷射旅（敌人）",
+      "配套星图词条",
+      [
+        "喷气旅",
+        "THE JET BRIGADE (Enemies)",
+        "Unresolved effect #1202"
+      ]
+    ],
+    [
+      1203,
+      "喷射旅",
+      "敌情与变种",
+      [
+        "喷气旅 (图标)",
+        "THE JET BRIGADE",
+        "elite_bot_jumpattack",
+        "presence:elite_bot_jumpattack"
+      ]
+    ],
+    [
+      1204,
+      "自由日",
+      "设施与星球标记",
+      [
+        "自由日庆典",
+        "LIBERTY DAY",
+        "LIBERTY DAY CELEBRATION",
+        "liberty_day",
+        "presence:liberty_day"
+      ]
+    ],
+    [
+      1205,
+      "民主空间站建造工地：三期",
+      "设施与星球标记",
+      [
+        "DSS 建设工地 - 第三阶段",
+        "DSS CONSTRUCTION SITE - PHASE 3",
+        "democracy_station_phase_3",
+        "presence:democracy_station_phase_3"
+      ]
+    ],
+    [
+      1206,
+      "终结族研究保护区",
+      "设施与星球标记",
+      [
+        "虫族研究保护区",
+        "TERMINID RESEARCH PRESERVE",
+        "military_tower",
+        "presence:military_tower"
+      ]
+    ],
+    [
+      1207,
+      "临时配发：E/MG-101 重机枪炮台",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: E/MG-101 HMG EMPLACEMENT",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1207",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:E/MG-101 重机枪炮台"
+      ]
+    ],
+    [
+      1208,
+      "星球轰炸（!!激活星球轰炸!!）",
+      "空间站与战术行动",
+      [
+        "PLANETARY BOMBARDMENT"
+      ]
+    ],
+    [
+      1209,
+      "飞鹰风暴",
+      "空间站与战术行动",
+      [
+        "EAGLE STORM",
+        "鹰式风暴",
+        "飞鹰毒气空袭",
+        "飞鹰风暴毒气"
+      ]
+    ],
+    [
+      1210,
+      "轨道封锁（优化空投）",
+      "未解效果",
+      [
+        "轨道封锁（空间优化）",
+        "ORBITAL BLOCKADE",
+        "绝地喷射仓空间优化 (轨道封锁)"
+      ]
+    ],
+    [
+      1211,
+      "行星轰炸",
+      "空间站与战术行动",
+      [
+        "星球轰炸（图标）",
+        "PLANETARY BOMBARDMENT",
+        "tactical_action_planetary_bombardment",
+        "presence:tactical_action_planetary_bombardment"
+      ]
+    ],
+    [
+      1212,
+      "飞鹰风暴（星图标记）",
+      "空间站与战术行动",
+      [
+        "飞鹰风暴（图标）",
+        "EAGLE STORM (Marker)",
+        "EAGLE STORM",
+        "tactical_action_eagle_storm",
+        "presence:tactical_action_eagle_storm"
+      ]
+    ],
+    [
+      1213,
+      "轨道封锁（星图标记）",
+      "空间站与战术行动",
+      [
+        "轨道封锁（图标）",
+        "ORBITAL BLOCKADE (Marker)",
+        "ORBITAL BLOCKADE",
+        "tactical_action_defensive_lockdown",
+        "presence:tactical_action_defensive_lockdown"
+      ]
+    ],
+    [
+      1214,
+      "行星轰炸：解放增益",
+      "作战增减益",
+      [
+        "星球轰炸",
+        "BOMBARDMENT LIBERATION BOOST",
+        "PLANETARY BOMBARDMENT"
+      ]
+    ],
+    [
+      1215,
+      "轨道封锁（阻断进攻）",
+      "空间站与战术行动",
+      [
+        "轨道封锁（风味文本）",
+        "ORBITAL BLOCKADE",
+        "无参"
+      ]
+    ],
+    [
+      1216,
+      "飞鹰风暴（防御增益）",
+      "空间站与战术行动",
+      [
+        "飞鹰风暴（DSS守住防线，风味文本）",
+        "EAGLE STORM"
+      ]
+    ],
+    [
+      1217,
+      "民主空间站（DSS）",
+      "设施与星球标记",
+      [
+        "民主空间站",
+        "DEMOCRACY SPACE STATION",
+        "democracy_station_final",
+        "presence:democracy_station_final"
+      ]
+    ],
+    [
+      1218,
+      "未解效果 #1218",
+      "未解效果",
+      [
+        "Unresolved effect #1218"
+      ]
+    ],
+    [
+      1219,
+      "再生覆盖",
+      "未解效果",
+      [
+        "Unresolved effect #1219"
+      ]
+    ],
+    [
+      1220,
+      "再生覆盖 v2",
+      "未解效果",
+      [
+        "Unresolved effect #1220"
+      ]
+    ],
+    [
+      1222,
+      "恢复速度覆盖",
+      "未解效果",
+      [
+        "再生覆盖 v3",
+        "Regen Override",
+        "Unresolved effect #1222"
+      ]
+    ],
+    [
+      1223,
+      "增援强化资源",
+      "未解效果",
+      [
+        "Unresolved effect #1223"
+      ]
+    ],
+    [
+      1224,
+      "增援强化资源 v2",
+      "未解效果",
+      [
+        "Unresolved effect #1224"
+      ]
+    ],
+    [
+      1225,
+      "未解效果 #1225",
+      "作战增减益",
+      [
+        "Unresolved effect #1225"
+      ]
+    ],
+    [
+      1226,
+      "临时配发：FAF-14 飞矛",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: FAF-14 SPEAR",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1226",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:FAF-14 飞矛"
+      ]
+    ],
+    [
+      1227,
+      "临时配发：MG-43 机枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MG-43 MACHINE GUN",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1227",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MG-43 机枪"
+      ]
+    ],
+    [
+      1228,
+      "梅里迪亚黑洞（旧星图标记）",
+      "星球环境与通路",
+      [
+        "默里迪亚黑洞(稳定)",
+        "MERIDIAN BLACK HOLE (old map marker)",
+        "MERIDIAN BLACK HOLE",
+        "black_hole",
+        "presence:black_hole"
+      ]
+    ],
+    [
+      1229,
+      "梅里迪亚黑洞",
+      "星球环境与通路",
+      [
+        "默里迪亚黑洞(不稳定)",
+        "MERIDIAN BLACK HOLE",
+        "black_hole_intensified",
+        "presence:black_hole_intensified"
+      ]
+    ],
+    [
+      1230,
+      "梅里迪亚黑洞（另一效果）",
+      "星球环境与通路",
+      [
+        "默里迪亚黑洞(已锁定)",
+        "MERIDIAN BLACK HOLE",
+        "black_hole_travel_blocked",
+        "presence:black_hole_travel_blocked"
+      ]
+    ],
+    [
+      1231,
+      "临时配发：MD-8 毒气地雷",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-8 GAS MINES",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1231",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-8 毒气地雷"
+      ]
+    ],
+    [
+      1232,
+      "工厂枢纽",
+      "设施与星球标记",
+      [
+        "FACTORY HUB",
+        "manufacturing_generic",
+        "presence:manufacturing_generic"
+      ]
+    ],
+    [
+      1233,
+      "临时配发：StA-X3 W.A.S.P. 发射器",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: STA-X3 W.A.S.P. LAUNCHER",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1233",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:StA-X3 W.A.S.P. 发射器"
+      ]
+    ],
+    [
+      1234,
+      "科学中心",
+      "设施与星球标记",
+      [
+        "CENTER OF SCIENCE",
+        "research_generic",
+        "presence:research_generic"
+      ]
+    ],
+    [
+      1235,
+      "临时配发：MD-17 反坦克地雷",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-17 ANTI-TANK MINES",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1235",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-17 反坦克地雷"
+      ]
+    ],
+    [
+      1236,
+      "公民监视与安全中心",
+      "设施与星球标记",
+      [
+        "平民监控与安全中心",
+        "CENTER FOR CIVILIAN SURVEILLANCE AND SAFETY",
+        "civilian_surveillance",
+        "presence:civilian_surveillance"
+      ]
+    ],
+    [
+      1237,
+      "临时配发：轨道380毫米高爆火力网",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL 380MM HE BARRAGE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1237",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道380毫米高爆火力网"
+      ]
+    ],
+    [
+      1238,
+      "空间站行动支援",
+      "作战增减益",
+      [
+        "DSS 作战支援",
+        "OPERATIONAL SUPPORT"
+      ]
+    ],
+    [
+      1239,
+      "喷射旅生产工厂",
+      "设施与星球标记",
+      [
+        "喷气旅孵化厂",
+        "JET BRIGADE FACTORIES",
+        "bot_facility_jetbrigade",
+        "presence:bot_facility_jetbrigade"
+      ]
+    ],
+    [
+      1240,
+      "濒临毁灭",
+      "星球环境与通路",
+      [
+        "星球危机标记",
+        "VERGE OF DESTRUCTION",
+        "planet_at_risk",
+        "presence:planet_at_risk"
+      ]
+    ],
+    [
+      1241,
+      "破碎星球",
+      "星球环境与通路",
+      [
+        "破裂星球",
+        "FRACTURED PLANET",
+        "destroyed_by_black_hole",
+        "presence:destroyed_by_black_hole"
+      ]
+    ],
+    [
+      1242,
+      "移动中的星球",
+      "星球环境与通路",
+      [
+        "通往超级地球的航线",
+        "MOVING PLANET",
+        "travel_path_to_super_earth",
+        "presence:travel_path_to_super_earth"
+      ]
+    ],
+    [
+      1243,
+      "掠食者变种（敌人）",
+      "配套星图词条",
+      [
+        "掠食变种",
+        "PREDATOR STRAIN (Enemies)",
+        "Unresolved effect #1243"
+      ]
+    ],
+    [
+      1244,
+      "孢子爆裂变种（敌人）",
+      "配套星图词条",
+      [
+        "孢裂",
+        "Spore Burst Strain (Enemies)",
+        "Unresolved effect #1244"
+      ]
+    ],
+    [
+      1245,
+      "掠食者变种",
+      "敌情与变种",
+      [
+        "掠食变种(图标)",
+        "PREDATOR STRAIN",
+        "bugs_super_predator",
+        "presence:bugs_super_predator"
+      ]
+    ],
+    [
+      1246,
+      "禁止战役",
+      "未解效果",
+      [
+        "非军事化",
+        "CAMPAIGN BLOCKER",
+        "Unresolved effect #1246",
+        "无参"
+      ]
+    ],
+    [
+      1247,
+      "临时配发：MD-8 毒气地雷",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MD-8 GAS MINES",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1247",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-8 毒气地雷"
+      ]
+    ],
+    [
+      1248,
+      "焚烧军团（敌人）",
+      "配套星图词条",
+      [
+        "炙灼部队",
+        "THE INCINERATION CORPS (Enemies)",
+        "Unresolved effect #1248"
+      ]
+    ],
+    [
+      1249,
+      "焚烧军团",
+      "敌情与变种",
+      [
+        "炙灼部队 (图标)",
+        "THE INCINERATION CORPS",
+        "bots_ivory_legion",
+        "presence:bots_ivory_legion"
+      ]
+    ],
+    [
+      1250,
+      "+30% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1250"
+      ]
+    ],
+    [
+      1251,
+      "-45s 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1251"
+      ]
+    ],
+    [
+      1252,
+      "破碎星球（另一效果）",
+      "星球环境与通路",
+      [
+        "破裂星球 v2",
+        "FRACTURED PLANET",
+        "destroyed_by_black_hole",
+        "presence:destroyed_by_black_hole"
+      ]
+    ],
+    [
+      1253,
+      "载具燃油减少(-90%)",
+      "未解效果",
+      [
+        "Unresolved effect #1253"
+      ]
+    ],
+    [
+      1254,
+      "临时配发：MG-206 重机枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: MG-206 HEAVY MACHINE GUN",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1254",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MG-206 重机枪"
+      ]
+    ],
+    [
+      1255,
+      "再生覆盖 v4",
+      "未解效果",
+      [
+        "Unresolved effect #1255"
+      ]
+    ],
+    [
+      1256,
+      "临时配发：E/GL-21 掷弹兵阵地",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: E/GL-21 GRENADIER BATTLEMENT",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1256",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:E/GL-21 掷弹兵阵地"
+      ]
+    ],
+    [
+      1257,
+      "减少 弹药拾取(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1257"
+      ]
+    ],
+    [
+      1258,
+      "增援减少(-2)",
+      "未解效果",
+      [
+        "Unresolved effect #1258"
+      ]
+    ],
+    [
+      1261,
+      "机甲储备：爱国者",
+      "临时装备",
+      [
+        "爱国者外骨骼冷却时间减少(-35%)",
+        "EXOSUIT RESERVES",
+        "Temporary equipment #1261",
+        "DSS 临时装备:EXO-45 爱国者外骨骼装甲"
+      ]
+    ],
+    [
+      1262,
+      "机甲储备：解放者",
+      "临时装备",
+      [
+        "解放者外骨骼冷却时间减少(-35%)",
+        "EXOSUIT RESERVES",
+        "Temporary equipment #1262",
+        "DSS 临时装备:EXO-49 解放者外骨骼装甲"
+      ]
+    ],
+    [
+      1263,
+      "临时配发：M-105 盟友",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: M-105 STALWART",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1263",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:M-105 盟友"
+      ]
+    ],
+    [
+      1264,
+      "治疗针减少(-2 治疗针)",
+      "未解效果",
+      [
+        "Unresolved effect #1264"
+      ]
+    ],
+    [
+      1265,
+      "快速侦察车冷却时间增加(+100%)",
+      "临时装备",
+      [
+        "Temporary equipment #1265",
+        "DSS 临时装备:M-102 快速侦察载具"
+      ]
+    ],
+    [
+      1267,
+      "临时配发：轨道毒气攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL GAS STRIKE",
+        "Temporary stratagem: Unresolved effect #1267 #1267",
+        "stratagem:轨道毒气攻击",
+        "毒气打击",
+        "轨道毒气",
+        "毒气空袭"
+      ]
+    ],
+    [
+      1268,
+      "负能量实验室",
+      "设施与星球标记",
+      [
+        "NEGATIVE ENERGY LABORATORY",
+        "research_energy_lab",
+        "presence:research_energy_lab"
+      ]
+    ],
+    [
+      1269,
+      "庞大宿主舰队",
+      "敌情与变种",
+      [
+        "大军 (图标)",
+        "The Great Host",
+        "illuminate_fleet",
+        "presence:illuminate_fleet"
+      ]
+    ],
+    [
+      1270,
+      "未解效果 #1270",
+      "未解效果",
+      [
+        "Unresolved effect #1270"
+      ]
+    ],
+    [
+      1271,
+      "未解效果 #1271",
+      "未解效果",
+      [
+        "Unresolved effect #1271"
+      ]
+    ],
+    [
+      1272,
+      "增援增加(+2)",
+      "未解效果",
+      [
+        "Unresolved effect #1272"
+      ]
+    ],
+    [
+      1273,
+      "+30s 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1273"
+      ]
+    ],
+    [
+      1274,
+      "临时配发：M-105 盟友",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: M-105 STALWART",
+        "Temporary stratagem: Unresolved effect #1274 #1274",
+        "stratagem:M-105 盟友"
+      ]
+    ],
+    [
+      1275,
+      "轨道 冷却时间增加(+60秒)",
+      "临时装备",
+      [
+        "Temporary equipment #1275"
+      ]
+    ],
+    [
+      1276,
+      "临时配发：FX-12 防护罩生成中继器",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: FX-12 SHIELD GENERATOR RELAY",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1276",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:FX-12 防护罩生成中继器"
+      ]
+    ],
+    [
+      1277,
+      "临时配发：轨道凝固汽油弹火力网",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL NAPALM BARRAGE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1277",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道凝固汽油弹火力网"
+      ]
+    ],
+    [
+      1278,
+      "弹药紧缺(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1278"
+      ]
+    ],
+    [
+      1279,
+      "临时配发：M-102 快速侦察载具",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: M-102 FAST RECONNAISSANCE VEHICLE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1279",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:M-102 快速侦察载具"
+      ]
+    ],
+    [
+      1280,
+      "临时配发：轨道烟雾攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: ORBITAL SMOKE STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1280",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道烟雾攻击"
+      ]
+    ],
+    [
+      1281,
+      "临时配发：飞鹰烟雾攻击",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: EAGLE SMOKE STRIKE",
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1281",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰烟雾攻击"
+      ]
+    ],
+    [
+      1282,
+      "绝地潜兵训练设施",
+      "设施与星球标记",
+      [
+        "HELLDIVER TRAINING FACILITIES",
+        "military_helldiver_training",
+        "presence:military_helldiver_training"
+      ]
+    ],
+    [
+      1283,
+      "工厂巨型步行机激增",
+      "未解效果",
+      [
+        "移动工厂激增 (+50% 生成)",
+        "FACTORY STRIDER SURGE",
+        "Unresolved effect #1283"
+      ]
+    ],
+    [
+      1284,
+      "临时配发：GR-8 无后座力步枪",
+      "临时配发战备",
+      [
+        "ARSENAL AUGMENTATION: GR-8 RECOILLESS RIFLE",
+        "Temporary stratagem: Unresolved effect #1284 #1284",
+        "stratagem:GR-8 无后座力步枪"
+      ]
+    ],
+    [
+      1285,
+      "穿刺者暴走",
+      "未解效果",
+      [
+        "穿刺虫激增 (+100% 生成)",
+        "IMPALER RAMPAGE",
+        "Unresolved effect #1285"
+      ]
+    ],
+    [
+      1286,
+      "新希望城建造工地",
+      "设施与星球标记",
+      [
+        "新希望建设工地",
+        "NEW HOPE CONSTRUCTION SITE",
+        "construction_hope",
+        "presence:construction_hope"
+      ]
+    ],
+    [
+      1287,
+      "新希望城",
+      "设施与星球标记",
+      [
+        "NEW HOPE CITY",
+        "completed_hope",
+        "presence:completed_hope"
+      ]
+    ],
+    [
+      1288,
+      "孢子爆裂拾荒虫激增",
+      "未解效果",
+      [
+        "孢裂食腐虫 激增 (+200% 生成)",
+        "SPORE BURST SCAVENGER RAMPAGE",
+        "Unresolved effect #1288"
+      ]
+    ],
+    [
+      1289,
+      "轨道炮攻击冷却时间减少(-150秒)",
+      "临时装备",
+      [
+        "Temporary equipment #1289",
+        "DSS 临时装备:轨道炮攻击"
+      ]
+    ],
+    [
+      1291,
+      "新志向城",
+      "设施与星球标记",
+      [
+        "新抱负城",
+        "NEW ASPIRATION CITY",
+        "completed_aspiration",
+        "presence:completed_aspiration"
+      ]
+    ],
+    [
+      1292,
+      "新向往城",
+      "设施与星球标记",
+      [
+        "新渴望城",
+        "NEW YEARNING CITY",
+        "completed_yearning",
+        "presence:completed_yearning"
+      ]
+    ],
+    [
+      1293,
+      "冲锋虫暴走",
+      "未解效果",
+      [
+        "强袭虫 激增 (+45% 生成)",
+        "CHARGER RAMPAGE",
+        "Unresolved effect #1293"
+      ]
+    ],
+    [
+      1294,
+      "吐酸泰坦 激增 (-100% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1294"
+      ]
+    ],
+    [
+      1295,
+      "暴政公园 2",
+      "设施与星球标记",
+      [
+        "TYRANNY PARK 2",
+        "civilian_bug_park",
+        "presence:civilian_bug_park"
+      ]
+    ],
+    [
+      1296,
+      "追踪虫激增 (+400% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1296"
+      ]
+    ],
+    [
+      1297,
+      "追猎虫激增 (+900% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1297"
+      ]
+    ],
+    [
+      1298,
+      "快速侦察车冷却时间增加 v2(+100%)",
+      "临时装备",
+      [
+        "Temporary equipment #1298",
+        "DSS 临时装备:M-102 快速侦察载具"
+      ]
+    ],
+    [
+      1299,
+      "飞行延误(+150秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #1299"
+      ]
+    ],
+    [
+      1300,
+      "弹药充裕(+50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1300"
+      ]
+    ],
+    [
+      1301,
+      "临时配发：A/G-16 加特林哨戒炮",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1301 #1301",
+        "stratagem:A/G-16 加特林哨戒炮"
+      ]
+    ],
+    [
+      1302,
+      "临时配发：AX/LAS-5 护卫犬漫游者",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1302 #1302",
+        "stratagem:AX/LAS-5 护卫犬漫游者"
+      ]
+    ],
+    [
+      1303,
+      "破地变种（敌人）",
+      "配套星图词条",
+      [
+        "爆裂变种",
+        "RUPTURE STRAIN (ENEMIES)",
+        "Unresolved effect #1303"
+      ]
+    ],
+    [
+      1304,
+      "阿尔法前哨站",
+      "未解效果",
+      [
+        "未解效果 #1304",
+        "OUTPOST ALPHA",
+        "Unresolved effect #1304"
+      ]
+    ],
+    [
+      1305,
+      "飞行延误(+50秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #1305"
+      ]
+    ],
+    [
+      1306,
+      "龙蟑（敌人）",
+      "配套星图词条",
+      [
+        "蟑龙",
+        "DRAGONROACHES (Enemies)",
+        "Unresolved effect #1306"
+      ]
+    ],
+    [
+      1307,
+      "虫巢领主（敌人）",
+      "配套星图词条",
+      [
+        "霸王虫",
+        "HIVE LORDS (Enemies)",
+        "Unresolved effect #1307"
+      ]
+    ],
+    [
+      1308,
+      "虫巢领主",
+      "敌情与变种",
+      [
+        "霸王虫(图标)",
+        "HIVE LORDS",
+        "bugs_hive_lord",
+        "presence:bugs_hive_lord"
+      ]
+    ],
+    [
+      1309,
+      "龙蟑",
+      "敌情与变种",
+      [
+        "蟑龙(图标)",
+        "DRAGONROACHES",
+        "bugs_dragon",
+        "presence:bugs_dragon"
+      ]
+    ],
+    [
+      1310,
+      "破地变种",
+      "敌情与变种",
+      [
+        "爆裂变种(图标)",
+        "RUPTURE STRAIN",
+        "bugs_burrower",
+        "presence:bugs_burrower"
+      ]
+    ],
+    [
+      1311,
+      "虫窝世界",
+      "未解效果",
+      [
+        "巢穴星球",
+        "HIVE WORLD",
+        "Unresolved effect #1311"
+      ]
+    ],
+    [
+      1312,
+      "轻度阴霾笼罩(+20秒 撤离时间)",
+      "作战增减益",
+      [
+        "LIGHT GLOOM COVER"
+      ]
+    ],
+    [
+      1313,
+      "中度阴霾覆盖(+30秒 撤离时间)",
+      "作战增减益",
+      [
+        "MODERATE GLOOM BLANKET"
+      ]
+    ],
+    [
+      1314,
+      "+20% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1314"
+      ]
+    ],
+    [
+      1315,
+      "重度阴霾遮蔽(+40秒 撤离时间)",
+      "作战增减益",
+      [
+        "HEAVY GLOOM SHROUD"
+      ]
+    ],
+    [
+      1316,
+      "+30% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1316"
+      ]
+    ],
+    [
+      1317,
+      "减少 弹药拾取(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1317"
+      ]
+    ],
+    [
+      1318,
+      "阴霾源头(-1 增援)",
+      "未解效果",
+      [
+        "GLOOM SOURCE"
+      ]
+    ],
+    [
+      1319,
+      "减少 弹药拾取(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1319"
+      ]
+    ],
+    [
+      1320,
+      "+30% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1320"
+      ]
+    ],
+    [
+      1321,
+      "飞行延误(+20秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #1321"
+      ]
+    ],
+    [
+      1322,
+      "飞行延误(+40秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #1322"
+      ]
+    ],
+    [
+      1323,
+      "+30% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1323"
+      ]
+    ],
+    [
+      1324,
+      "超镁铁质矿场",
+      "设施与星球标记",
+      [
+        "超镁铁质矿区",
+        "ULTRAMAFIC MINE",
+        "manufacturing_industry",
+        "presence:manufacturing_industry"
+      ]
+    ],
+    [
+      1325,
+      "+15% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "Unresolved effect #1325"
+      ]
+    ],
+    [
+      1326,
+      "飞行延误(+25秒 撤离时间)",
+      "作战增减益",
+      [
+        "Unresolved effect #1326"
+      ]
+    ],
+    [
+      1327,
+      "地图 图标(？)",
+      "未解效果",
+      [
+        "Unresolved effect #1327"
+      ]
+    ],
+    [
+      1328,
+      "临时配发：RL-77 空爆火箭筒",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1328 #1328",
+        "stratagem:RL-77 空爆火箭筒"
+      ]
+    ],
+    [
+      1329,
+      "自由日庆典",
+      "设施与星球标记",
+      [
+        "自由日",
+        "LIBERTY DAY CELEBRATION",
+        "liberty_day",
+        "presence:liberty_day"
+      ]
+    ],
+    [
+      1330,
+      "解放日烟火",
+      "设施与星球标记",
+      [
+        "fireworks",
+        "presence:fireworks"
+      ]
+    ],
+    [
+      1331,
+      "临时配发：CQC-1（One True Flag）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1331",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:CQC-1（One True Flag）"
+      ]
+    ],
+    [
+      1332,
+      "临时配发：LIFT-182 跃迁背包",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1332 #1332",
+        "stratagem:LIFT-182 跃迁背包"
+      ]
+    ],
+    [
+      1333,
+      "E-711 提取设施",
+      "未解效果",
+      [
+        "Unresolved effect #1333"
+      ]
+    ],
+    [
+      1334,
+      "临时配发：LAS-98 激光大炮",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1334 #1334",
+        "stratagem:LAS-98 激光大炮"
+      ]
+    ],
+    [
+      1335,
+      "临时配发：轨道游走火力网",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1335 #1335",
+        "stratagem:轨道游走火力网"
+      ]
+    ],
+    [
+      1336,
+      "未解效果 #1336",
+      "弹药与补给",
+      [
+        "Unresolved effect #1336"
+      ]
+    ],
+    [
+      1337,
+      "临时装备：轨道烟雾攻击",
+      "临时装备",
+      [
+        "Temporary equipment #1337",
+        "DSS 临时装备:轨道烟雾攻击"
+      ]
+    ],
+    [
+      1338,
+      "临时装备：M-102 快速侦察载具",
+      "临时装备",
+      [
+        "Temporary equipment #1338",
+        "DSS 临时装备:M-102 快速侦察载具"
+      ]
+    ],
+    [
+      1339,
+      "临时装备：EXO-45 爱国者外骨骼装甲",
+      "临时装备",
+      [
+        "Temporary equipment #1339",
+        "DSS 临时装备:EXO-45 爱国者外骨骼装甲"
+      ]
+    ],
+    [
+      1340,
+      "临时装备：EXO-49 解放者外骨骼装甲",
+      "临时装备",
+      [
+        "Temporary equipment #1340",
+        "DSS 临时装备:EXO-49 解放者外骨骼装甲"
+      ]
+    ],
+    [
+      1341,
+      "未解效果 #1341",
+      "未解效果",
+      [
+        "Unresolved effect #1341"
+      ]
+    ],
+    [
+      1342,
+      "异见者拘禁中心（CECOD）",
+      "设施与星球标记",
+      [
+        "异见禁锢中心(CECOD)",
+        "CENTER FOR THE CONFINEMENT OF DISSIDENCE (CECOD)",
+        "dissident_prison",
+        "presence:dissident_prison"
+      ]
+    ],
+    [
+      1343,
+      "临时配发：飞鹰凝固汽油弹空袭",
+      "临时配发战备",
+      [
+        "Temporary stratagem: Unresolved effect #1343 #1343",
+        "stratagem:飞鹰凝固汽油弹空袭"
+      ]
+    ],
+    [
+      1344,
+      "潘多拉基地",
+      "设施与星球标记",
+      [
+        "PANDORA BASE",
+        "dss_augmentation",
+        "presence:dss_augmentation"
+      ]
+    ],
+    [
+      1345,
+      "装备实验：轨道120mm高爆/电磁弹火力网",
+      "实验性战备变体",
+      [
+        "ORBITAL 120MM HE/EMS BARRAGE",
+        "modifier 行 #6"
+      ]
+    ],
+    [
+      1346,
+      "装备实验：燃烧加特林火力网",
+      "实验性战备变体",
+      [
+        "INCENDIARY GATLING BARRAGE",
+        "modifier 行 #2"
+      ]
+    ],
+    [
+      1347,
+      "临时配发：LIFT-860 悬浮背包",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1347",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:LIFT-860 悬浮背包"
+      ]
+    ],
+    [
+      1348,
+      "临时配发：GL-52（De-Escalator）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1348",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:GL-52（De-Escalator）"
+      ]
+    ],
+    [
+      1349,
+      "临时配发：AX/ARC-3（K-9）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1349",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:AX/ARC-3（K-9）"
+      ]
+    ],
+    [
+      1350,
+      "装备实验：烟幕增强型游走火力网",
+      "实验性战备变体",
+      [
+        "SMOKE-ENHANCED WALKING BARRAGE",
+        "modifier 行 #14"
+      ]
+    ],
+    [
+      1351,
+      "临时配发：PORTABLE HELLBOMB",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1351",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:PORTABLE HELLBOMB"
+      ]
+    ],
+    [
+      1352,
+      "普通黑洞",
+      "星球环境与通路",
+      [
+        "稳定黑洞",
+        "CONVENTIONAL BLACK HOLE",
+        "destroyed_by_death_laser",
+        "presence:destroyed_by_death_laser"
+      ]
+    ],
+    [
+      1353,
+      "数据中心",
+      "设施与星球标记",
+      [
+        "机器人\"数据库一号\"(含图标)",
+        "DATA CENTER",
+        "bot_facility_data",
+        "presence:bot_facility_data"
+      ]
+    ],
+    [
+      1354,
+      "机器人重甲敌军激增 (+110% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1354"
+      ]
+    ],
+    [
+      1355,
+      "重甲敌人激增",
+      "敌情与变种",
+      [
+        "机器人重甲敌军激增 (图标)",
+        "HEAVY ARMOR SURGE",
+        "bots_increased_warstriders",
+        "presence:bots_increased_warstriders"
+      ]
+    ],
+    [
+      1356,
+      "巨型者激增 (+125% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1356"
+      ]
+    ],
+    [
+      1357,
+      "浩克激增",
+      "敌情与变种",
+      [
+        "巨型者激增 (图标)",
+        "HULK SURGE",
+        "bots_increased_hulks",
+        "presence:bots_increased_hulks"
+      ]
+    ],
+    [
+      1358,
+      "蹂躏者激增 (+150% 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1358"
+      ]
+    ],
+    [
+      1359,
+      "毁灭者激增",
+      "敌情与变种",
+      [
+        "蹂躏者激增 (图标)",
+        "DEVASTATOR SURGE",
+        "bots_increased_devastators",
+        "presence:bots_increased_devastators"
+      ]
+    ],
+    [
+      1360,
+      "生化人（敌人）",
+      "配套星图词条",
+      [
+        "生化人",
+        "CYBORGS (Enemies)",
+        "Unresolved effect #1360"
+      ]
+    ],
+    [
+      1361,
+      "生化人",
+      "敌情与变种",
+      [
+        "生化人 (图标)",
+        "CYBORGS",
+        "bots_cyborgs",
+        "presence:bots_cyborgs"
+      ]
+    ],
+    [
+      1362,
+      "赛博斯坦轨道战场(改变战场天空盒)",
+      "设施与星球标记",
+      [
+        "bot_battle_intense",
+        "presence:bot_battle_intense"
+      ]
+    ],
+    [
+      1363,
+      "飞行延误(+30秒 撤离时间)",
+      "作战增减益",
+      [
+        "PILOT SHORTAGE"
+      ]
+    ],
+    [
+      1364,
+      "制空权(-30秒 撤离时间)",
+      "作战增减益",
+      [
+        "AERIAL DOMINANCE"
+      ]
+    ],
+    [
+      1365,
+      "轨道 冷却时间增加(+40秒)",
+      "临时装备",
+      [
+        "Temporary equipment #1365",
+        "ORBITAL FLUCTUATIONS"
+      ]
+    ],
+    [
+      1366,
+      "弹药紧缺(-50% 弹匣)",
+      "弹药与补给",
+      [
+        "LESS BATTLEFIELD AMMO"
+      ]
+    ],
+    [
+      1367,
+      "治疗针减少(-1 治疗针)",
+      "弹药与补给",
+      [
+        "MEDICAL SUPPLY STRAIN"
+      ]
+    ],
+    [
+      1368,
+      "未解效果 #1368",
+      "未解效果",
+      [
+        "Unresolved effect #1368"
+      ]
+    ],
+    [
+      1369,
+      "治疗针增加(+1 治疗针)",
+      "弹药与补给",
+      [
+        "Unresolved effect #1369"
+      ]
+    ],
+    [
+      1370,
+      "+25% 飞鹰重新武装时间",
+      "未解效果",
+      [
+        "SLOWER EAGLE REARM"
+      ]
+    ],
+    [
+      1371,
+      "移动工厂激增 (减少 生成)",
+      "未解效果",
+      [
+        "Unresolved effect #1371"
+      ]
+    ],
+    [
+      1373,
+      "一级异界风暴",
+      "事件作战",
+      [
+        "CLASS 1 EXOSTORM",
+        "illuminate_ritual_storm_lvl1",
+        "presence:illuminate_ritual_storm_lvl1"
+      ]
+    ],
+    [
+      1374,
+      "二级异界风暴",
+      "事件作战",
+      [
+        "CLASS 2 EXOSTORM",
+        "illuminate_ritual_storm_lvl2",
+        "presence:illuminate_ritual_storm_lvl2"
+      ]
+    ],
+    [
+      1375,
+      "三级异界风暴",
+      "事件作战",
+      [
+        "CLASS 3 EXOSTORM",
+        "illuminate_ritual_storm_lvl3",
+        "presence:illuminate_ritual_storm_lvl3"
+      ]
+    ],
+    [
+      1376,
+      "寂域笼罩",
+      "星球环境与通路",
+      [
+        "寂域（旧）（船舰天空盒）",
+        "The Void",
+        "illuminate_rift",
+        "presence:illuminate_rift"
+      ]
+    ],
+    [
+      1377,
+      "无智者大军（敌人）",
+      "配套星图词条",
+      [
+        "无脑群氓",
+        "MINDLESS MASSES (Enemies)",
+        "Unresolved effect #1377"
+      ]
+    ],
+    [
+      1378,
+      "无智者大军",
+      "敌情与变种",
+      [
+        "无脑群氓 (图标)",
+        "MINDLESS MASSES",
+        "illuminate_harvester",
+        "presence:illuminate_harvester"
+      ]
+    ],
+    [
+      1379,
+      "征用者",
+      "敌情与变种",
+      [
+        "占领者 (图标)",
+        "APPROPRIATORS",
+        "illuminate_engineer",
+        "presence:illuminate_engineer"
+      ]
+    ],
+    [
+      1380,
+      "征用者（敌人）",
+      "配套星图词条",
+      [
+        "占领者",
+        "APPROPRIATORS (Enemies)",
+        "Unresolved effect #1380"
+      ]
+    ],
+    [
+      1381,
+      "未解效果 #1381",
+      "未解效果",
+      [
+        "Unresolved effect #1381"
+      ]
+    ],
+    [
+      1382,
+      "未解效果 #1382",
+      "未解效果",
+      [
+        "Unresolved effect #1382"
+      ]
+    ],
+    [
+      1383,
+      "临时配发：轨道加特林（普通型）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1383",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:轨道加特林（普通型）"
+      ]
+    ],
+    [
+      1384,
+      "伐木者骨骼冷却时间减少",
+      "临时装备",
+      [
+        "Temporary equipment #1384"
+      ]
+    ],
+    [
+      1385,
+      "突破骨骼冷却时间减少",
+      "临时装备",
+      [
+        "Temporary equipment #1385"
+      ]
+    ],
+    [
+      1386,
+      "孢子爆裂变种",
+      "敌情与变种",
+      [
+        "孢裂（图标）",
+        "SPORE BURST STRAIN",
+        "bugs_gloom",
+        "presence:bugs_gloom"
+      ]
+    ],
+    [
+      1387,
+      "通信阵列",
+      "设施与星球标记",
+      [
+        "机器人 通信阵列",
+        "COMMUNICATIONS ARRAY",
+        "bot_facility_comms",
+        "presence:bot_facility_comms"
+      ]
+    ],
+    [
+      1388,
+      "临时配发：CQC-1（One True Flag）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1388",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:CQC-1（One True Flag）"
+      ]
+    ],
+    [
+      1389,
+      "临时配发：DARK FLUID VESSEL",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1389",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:DARK FLUID VESSEL"
+      ]
+    ],
+    [
+      1390,
+      "临时配发：CQC-20（Breaching Hammer）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1390",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:CQC-20（Breaching Hammer）"
+      ]
+    ],
+    [
+      1392,
+      "临时配发：M-103（Supply FRV）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1392",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:M-103（Supply FRV）"
+      ]
+    ],
+    [
+      1393,
+      "临时配发：M-104（Incinerator FRV）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1393",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:M-104（Incinerator FRV）"
+      ]
+    ],
+    [
+      1394,
+      "临时装备：轨道毒气攻击",
+      "临时装备",
+      [
+        "Temporary equipment #1394",
+        "DSS 临时装备:轨道毒气攻击"
+      ]
+    ],
+    [
+      1395,
+      "终结族控制系统 TCS+",
+      "设施与星球标记",
+      [
+        "终结族遏制系统 TCS+",
+        "TERMINID CONTROL SYSTEM+",
+        "tcs_wall",
+        "presence:tcs_wall"
+      ]
+    ],
+    [
+      1396,
+      "地图终结族图标 未知",
+      "设施与星球标记",
+      [
+        "bug_tcs_towers",
+        "presence:bug_tcs_towers"
+      ]
+    ],
+    [
+      1397,
+      "临时配发：AX/TX-13（Dog Breath）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1397",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:AX/TX-13（Dog Breath）"
+      ]
+    ],
+    [
+      1398,
+      "临时配发：A/GM-17 毒气迫击炮哨戒炮",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1398",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:A/GM-17 毒气迫击炮哨戒炮"
+      ]
+    ],
+    [
+      1399,
+      "临时配发：TX-41 灭菌者",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1399",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:TX-41 灭菌者"
+      ]
+    ],
+    [
+      1400,
+      "超级地球武装部队大量驻扎",
+      "设施与星球标记",
+      [
+        "SEAF支援，一起使用",
+        "Heavy SEAF Presence",
+        "seaf",
+        "presence:seaf"
+      ]
+    ],
+    [
+      1401,
+      "超级地球武装部队大量驻扎（敌人）",
+      "配套星图词条",
+      [
+        "SEAF支援，一起使用",
+        "Heavy SEAF Presence (Enemies)",
+        "Unresolved effect #1401"
+      ]
+    ],
+    [
+      1402,
+      "选票掠夺者（敌人）",
+      "配套星图词条",
+      [
+        "窃票者",
+        "VOTE SNATCHERS (Enemies)",
+        "Unresolved effect #1402"
+      ]
+    ],
+    [
+      1403,
+      "选票掠夺者",
+      "敌情与变种",
+      [
+        "窃票者（图标）",
+        "VOTE SNATCHERS",
+        "illuminate_bodyhorror",
+        "presence:illuminate_bodyhorror"
+      ]
+    ],
+    [
+      1404,
+      "未解效果 #1404",
+      "未解效果",
+      [
+        "Unresolved effect #1404"
+      ]
+    ],
+    [
+      1405,
+      "未解效果 #1405",
+      "未解效果",
+      [
+        "Unresolved effect #1405"
+      ]
+    ],
+    [
+      1406,
+      "寂域侧边星图区域",
+      "未解效果",
+      [
+        "未解效果 #1406",
+        "SIDEBOARD VOID",
+        "Unresolved effect #1406"
+      ]
+    ],
+    [
+      1407,
+      "寂域入口（已验证）",
+      "星球环境与通路",
+      [
+        "寂域通路（访问寂域）",
+        "VOID GATEWAY",
+        "illuminate_rift_sideboard_gate",
+        "presence:illuminate_rift_sideboard_gate"
+      ]
+    ],
+    [
+      1408,
+      "寂域",
+      "星球环境与通路",
+      [
+        "illuminate_rift_mesh",
+        "presence:illuminate_rift_mesh"
+      ]
+    ],
+    [
+      1409,
+      "寂域星球（天空盒、选择音效及浏览效果）",
+      "星球环境与通路",
+      [
+        "illuminate_rift_other_planets",
+        "presence:illuminate_rift_other_planets"
+      ]
+    ],
+    [
+      1410,
+      "虚空集群一",
+      "星球环境与通路",
+      [
+        "void_cluster_one",
+        "presence:void_cluster_one"
+      ]
+    ],
+    [
+      1411,
+      "虚空集群二",
+      "星球环境与通路",
+      [
+        "void_cluster_two",
+        "presence:void_cluster_two"
+      ]
+    ],
+    [
+      1412,
+      "寂域异常源头",
+      "星球环境与通路",
+      [
+        "寂域星球（星图选择音效）",
+        "ANOMALY LOCATION",
+        "operation_rift_source",
+        "presence:operation_rift_source"
+      ]
+    ],
+    [
+      1413,
+      "光能者入侵舰队（敌人）",
+      "配套星图词条",
+      [
+        "入侵舰队",
+        "INVASION FLEET (Enemies)",
+        "Unresolved effect #1413"
+      ]
+    ],
+    [
+      1414,
+      "光能者入侵舰队",
+      "敌情与变种",
+      [
+        "入侵舰队（图标）",
+        "INVASION FLEET",
+        "illuminate_invading",
+        "presence:illuminate_invading"
+      ]
+    ],
+    [
+      1415,
+      "未解效果 #1415",
+      "未解效果",
+      [
+        "Unresolved effect #1415"
+      ]
+    ],
+    [
+      1416,
+      "临时配发：SH-32 防护罩生成背包",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1416",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:SH-32 防护罩生成背包"
+      ]
+    ],
+    [
+      1417,
+      "寂域星球（星球浏览界面）",
+      "星球环境与通路",
+      [
+        "illuminate_rift",
+        "presence:illuminate_rift"
+      ]
+    ],
+    [
+      1418,
+      "强制撤离",
+      "星球环境与通路",
+      [
+        "拒止星球/紧急跃迁星球",
+        "Force Evacuation",
+        "force_evacuate",
+        "presence:force_evacuate"
+      ]
+    ],
+    [
+      1419,
+      "临时配发：飞鹰毒气攻击",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1419",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:飞鹰毒气攻击"
+      ]
+    ],
+    [
+      1420,
+      "临时配发：MD-6 反步兵雷区",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1420",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-6 反步兵雷区"
+      ]
+    ],
+    [
+      1421,
+      "临时配发：MD-I4 燃烧地雷",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1421",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-I4 燃烧地雷"
+      ]
+    ],
+    [
+      1422,
+      "临时配发：MD-8 毒气地雷",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1422",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:MD-8 毒气地雷"
+      ]
+    ],
+    [
+      1423,
+      "临时配发：TD-110（Maelstrom）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1423",
+        "WEAPONS EXPERIMENTATION",
+        "stratagem:TD-110（Maelstrom）"
+      ]
+    ],
+    [
+      1424,
+      "临时装备：TD-110（Maelstrom）",
+      "临时装备",
+      [
+        "Temporary equipment #1424",
+        "DSS 临时装备:TD-110（Maelstrom）"
+      ]
+    ],
+    [
+      1425,
+      "飞鹰风暴",
+      "空间站与战术行动",
+      [
+        "EAGLE STORM"
+      ]
+    ],
+    [
+      1426,
+      "未发布战备 #1426（本地资源未确认）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1426",
+        "WEAPONS EXPERIMENTATION",
+        "战备 hash 0x8DFA4622；本地明文表无此键（未发布/无本地行）"
+      ]
+    ],
+    [
+      1427,
+      "未发布战备 #1427（本地资源未确认）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1427",
+        "WEAPONS EXPERIMENTATION",
+        "战备 hash 0x166D0C91；本地明文表无此键（未发布/无本地行）"
+      ]
+    ],
+    [
+      1428,
+      "未发布战备 #1428（本地资源未确认）",
+      "临时配发战备",
+      [
+        "Temporary stratagem: WEAPONS EXPERIMENTATION #1428",
+        "WEAPONS EXPERIMENTATION",
+        "战备 hash 0x0C064A00；本地明文表无此键（未发布/无本地行）"
+      ]
+    ],
+    [
+      1429,
+      "未解效果 #1429",
+      "未解效果",
+      [
+        "Unresolved effect #1429"
+      ]
+    ],
+    [
+      1430,
+      "腐蚀性变种（敌人）",
+      "配套星图词条",
+      [
+        "未解效果 #1430",
+        "CAUSTIC STRAIN (Enemies)",
+        "Unresolved effect #1430"
+      ]
+    ],
+    [
+      1431,
+      "腐蚀性变种",
+      "敌情与变种",
+      [
+        "强酸变种（暂译）",
+        "CAUSTIC STRAIN",
+        "CAUSTIC STRAIN (experimental)",
+        "bugs_acid",
+        "presence:bugs_acid"
+      ]
+    ],
+    [
+      1432,
+      "新增敌情 #1432（未识别）",
+      "敌情与变种",
+      [
+        "New enemy presence #1432"
+      ]
+    ],
+    [
+      1433,
+      "毒瘴变种（候选战斗效果）",
+      "敌情与变种",
+      [
+        "Noxious Strain (candidate enemy presence)",
+        "毒瘴",
+        "Noxious"
+      ]
+    ],
+    [
+      1434,
+      "毒瘴变种（候选星图词条）",
+      "配套星图词条",
+      [
+        "Noxious Strain (candidate map tag)",
+        "毒瘴",
+        "Noxious"
+      ]
+    ]
+  ]
+}
