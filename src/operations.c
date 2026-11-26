@@ -821,11 +821,11 @@ static void on_tick(HfMod *mod, float dt, void *user)
                 queued_command = command;
                 queued_preset = draft;
                 request_queued = true;
-                if (active && !joiner) menu_report(tr(T_OP_QUEUED));
                 break;
         }
     }
-    if (active && !joiner) return; /* a joiner applies at once: there is no war table to rebuild */
+    /* Applied at once, also while an operation is active (e.g. after leaving a mission mid-way): the active operation
+     * of the entry planet takes the new world settings at the next tick, and new cards and missions use the rest. */
     if (request_queued) {
         request_queued = false;
         saved_checked = true;
@@ -860,7 +860,7 @@ HF_MOD_EXPORT int hellforge_mod_init(const HfApi *hf, HfMod *mod)
         strcmp(hf->build_id(), "25480438")) return 1;
     api = hf;
     self = mod;
-    api->log(self, "Press F11 on the ship for host operations (test21: in-game planet and operation editor)");
+    api->log(self, "Press F11 on the ship for host operations (test22: in-game planet and operation editor)");
     if (hf->on(mod, HF_EVENT_SESSION_END, session_end, NULL)) return 1;
     if (!overlay_start(hf, mod)) return 1;
     return hf->on_game_thread(mod, on_tick, NULL) ? 0 : 1;

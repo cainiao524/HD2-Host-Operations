@@ -1,6 +1,6 @@
 # 交接：local.host-ops-test（自訂星球與任務組）
 
-最後更新：2026-11-26，版本 `0.3.0-test21`（已安裝到 HellForge）。
+最後更新：2026-11-26，版本 `0.3.0-test22`（已安裝到 HellForge）。
 
 ## 目標與硬性要求
 
@@ -89,7 +89,7 @@ python build.py --hf-root "F:\Game\A\HD2\HellForge" --warnings-as-errors
    - 戰況刷新時（`refresh_detour`），**暫時**改寫即時戰況：`settingsHash`、enabled、faction、effects；需要的話補一筆戰役。刷新完立刻還原，只留在快照裡。
    - 行動進行中（`apply_active_world`，每一幀執行），對入口星球的行動常駐寫入同樣的設定，回到飛船、行動也結束後再還原。
 3. **任務 1–3（test16 起）：** hook 挑候選的函式 `0x11E5100`。當行動列是入口星球的、而且第 `slot = +0x58` 格有指定任務時，把候選改成只有那一個、回傳 1。這樣會**跳過**類型配額和區域篩選。test21 起客機也會替換。
-6. **同步碼（test21）：**
+4. **同步碼（test21）：**
    - 編碼和解碼在 `menu.c` 的 `menu_preset_code()` / `menu_parse_code()`：開頭 `HF1-`，內容是 Crockford Base32，最後有 CRC-16。
    - 打包的內容：版本、planet（u16）、biome、faction、template（0xFF 代表原版）、任務 3 個（u32）、詞條數量和每個詞條（u32）。
    - 選單底部有「複製同步碼」「貼上同步碼並套用」；貼上後送出 `MENU_OPEN_TEMPORARILY`，交給 `arm()`。
@@ -98,8 +98,9 @@ python build.py --hf-root "F:\Game\A\HD2\HellForge" --warnings-as-errors
    - `refresh_detour` 和 `build_row_detour` 仍然只在房主上執行。
    - **要注意：** 自己開放過設定的玩家，加入別人的房間後，設定也會繼續套用；要停止必須按「撤回開放」。
    - 同步碼的來回測試在 `tests/sync_code_test.c`，結果全部通過：能完整還原，大小寫不影響，改錯一個字元會被拒絕。
-4. **行動結束後（test17）：** 不論完成、放棄或中途退出，星球都維持開放。回到飛船後會主動重建一次戰況。「臨時開放」持續到撤回開放或關閉遊戲。
-5. **輸入處理（test13 起，和 F8 同一套）：**
+5. **立即套用（test22）：** 拿掉了「有行動進行中就排隊」的限制，房主送出的修改一律立刻 `arm()`。進行中的行動會在下一幀由 `apply_active_world` 套上新的地形和詞條；任務組和任務只影響之後產生的任務卡和任務。
+6. **行動結束後（test17）：** 不論完成、放棄或中途退出，星球都維持開放。回到飛船後會主動重建一次戰況。「臨時開放」持續到撤回開放或關閉遊戲。
+7. **輸入處理（test13 起，和 F8 同一套）：**
    - 用 `SetWindowLongPtrW` 接到遊戲的視窗處理函式前面。
    - 選單開著時：鍵盤、滑鼠和 WM_INPUT 都交給選單（WM_INPUT 用 `DefWindowProc` 處理掉）；`GetRawInputBuffer` 全部清空並回傳 0；忽略遊戲呼叫的 `ClipCursor` / `SetCursorPos`；開啟時解除游標鎖定。
    - 選單關著時：除了 F11 之外完全不處理，遊戲自己會重新鎖游標。
